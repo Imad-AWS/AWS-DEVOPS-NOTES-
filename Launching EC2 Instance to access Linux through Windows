@@ -1,0 +1,24 @@
+  ***To Perform Linux Command on Windows we use EC2 (Virtual Machine) ***
+
+   -->Steps to Launch EC2<-- 
+
+Step 1 : Create AWS Root Account
+Step 2 : Search EC2 
+Step 3 : Select Instance from the options om left side of the Page
+Step 4 : Now Click on "Launch Instance" 
+Step 5 : Name the Instance as per your Requirement 
+Step 6 : Select the OS(Operating System) that You want 
+Step 7 : For Linux Commands Use "Amazon Linux" as OS
+Step 8 : Select Kernel By Default it will be the latest Version 
+Step 9 : t3.micro is intance type it will be free for 75 hrs than AWS Will charge 
+Step 10 : To access VM we need a specific key-pair name for privacy & security.No one will be able to access without permission (like password).
+Step 11 :  To create Keypair: Click on “Create new key pair”, type your key name as per requirement.
+Step 12 :  N/W Section: By default it shows Future (class on N/W)
+Step 13 : Configure storage has Volume. Volume means data storage.By default we will get 8GB space (free of cost).
+Step 14 :  Click on “Launh Instance".
+
+
+                    ******After launching we will create a physical VM at AWS Availability Zone.***********************
+                    ****************  This is how an Instance (VM) is created. ****************************************
+
+
