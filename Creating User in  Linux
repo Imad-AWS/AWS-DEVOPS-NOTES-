@@ -1,0 +1,10 @@
+***Creating a USER in Linux ***
+
+As there will be lot of users in a company to give access to them we need to add users first 
+
+
+Command : adduser Username
+
+NOTE : User Name can be anything and also the user will be created inside the Home Directory 
+
+We can add N No of USERS.
