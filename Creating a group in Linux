@@ -1,0 +1,16 @@
+****Creating a group in Linux****
+
+  Considering a company has 2 groups 
+1. Admin Group
+2. Developer Group
+
+1. Admin group has full access -> They can read,write,execute.
+2. Developer group has limited access based on Requirement 
+
+Command : groupadd groupname
+
+Note : GroupName can be anything 
+
+To Add User to the Group we have other command :
+
+Command : usermod -aG groupname username 
