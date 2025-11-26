@@ -1,0 +1,102 @@
+              *****************LINUX COMMANDS*******************************
+
+VM(Virtual Machine) should be present in any location and to access it we can do it from anywhere — we just need internet.
+
+To start use “sudo -su -” to switch to root user.
+Everything will be inside the root.
+
+
+************Commands****************************
+
+----------------------------------------------------------------------------------------------
+1. ls – List Files & Directory
+File / Directory:
+1. Files -Just Files in a system 
+2. Directory → It is nothing but a folder in Windows in your drive.
+Examples: .doc,.excel, .powerpoint
+-----------------------------------------------------------------------------------------------
+2. ls -l → long listing format
+----------------------------------------------------------------------------------------------
+3. mkdir → To create the directory
+Example:   mkdir dirname
+  mk → make
+  dir → directory
+  dirname → any name
+----------------------------------------------------------------------------------------------
+4. cd → To go inside directory
+Example: cd directoryname
+----------------------------------------------------------------------------------------------
+5. To check which directory we are present use “pwd”.
+Example: pwd
+Output: /root/username
+----------------------------------------------------------------------------------------------
+6. To go to root just use cd / → we go inside root.
+----------------------------------------------------------------------------------------------
+7. To directly go into a specific directory
+Example:
+cd /dirpath/filename
+----------------------------------------------------------------------------------------------
+8. touch → To create an empty file
+Example: touch filename
+----------------------------------------------------------------------------------------------
+9. ll → To verify directory & file in Linux
+Directory name will be bold &
+file is normal.
+----------------------------------------------------------------------------------------------
+10.  pwd → Prints the current directory that you’re present
+----------------------------------------------------------------------------------------------
+11. rmdir → To remove/delete directory that is empty
+Example: rmdir dirname
+Note: Only works on empty directory. Won’t work on directory which has any file in it.
+----------------------------------------------------------------------------------------------
+12. rm → To remove/delete the file inside directory
+Example: rm filename
+----------------------------------------------------------------------------------------------
+13. cp → To copy the file from one directory to other directory
+Example: cp file path space directory name (path)
+Example given: cp /root/Cricket/Team1 /root/Football/
+----------------------------------------------------------------------------------------------
+14. mv → To move the file from one directory to other directory
+mv → Move the file
+
+Note : The file will be deleted from one directory and moved to the directory which is selected.
+
+Example: mv /Imad/demo  /Faizan/
+(directory name → file name → directory name)
+Example given (Laptop): mv /root/Imad/Demo /root/Faizan/
+----------------------------------------------------------------------------------------------
+15. To move from one directory to other fast we use: cd /dirname/
+To go back from one directory to another you can use: cd ..
+----------------------------------------------------------------------------------------------
+16. cat → Used when you read the file
+Example:cat filename
+Note :It works only on files, not on directories.
+----------------------------------------------------------------------------------------------
+17. To verify which is directory & which is file we use “ll” command.
+If at the start we have d → it is a directory
+If there is no d → then it is a file.
+----------------------------------------------------------------------------------------------
+18.  vi → It is used to write content in the empty file
+Example:
+vi filename
+Then press i (insert mode)
+Then write the content
+After that to save the file press:
+Esc button → then type :wq! → Enter.
+----------------------------------------------------------------------------------------------
+19. find → To find any content without opening the file
+Example: find -filename (or find “word”)
+If you are not in the directory then give full path after find.
+----------------------------------------------------------------------------------------------
+                           *****************8 End Of Basic Linux Command ***************************************
+
+
+
+
+
+
+
+
+
+
+
