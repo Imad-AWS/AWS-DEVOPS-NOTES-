@@ -1,0 +1,14 @@
+*************Aboslute Path And Relative Path*****************
+
+Absolute Path: The path where you need to write the whole path from home to the directory which you want to go.
+
+Example:cd /home/ubuntu/Faris → A.P (Absolute Path)
+
+Works in all cases.
+--------------------------------------------------------------------------------------------------------------------
+Relative Path:To go to any directory without giving full path.
+
+Example: cd Faris 
+
+Works only when you are currently in the same directory.
+--------------------------------------------------------------------------------------------------------------------
