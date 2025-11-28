@@ -1,0 +1,44 @@
+****************Giving Permissions to Users*********************
+
+Add files for the project then we will give permissions to the file.
+
+Three categories of Linux permissions to file:
+(drw- r-x  r--)
+ |     |    |
+User  Group Others
+Permission Permission Permission
+
+Number for Alloting Permission
+
+r – Read → 4
+w – Write → 2
+x – Execute → 1
+
+For full permission:
+4 + 2 + 1 = 7
+
+              --->>Flow chart<----
+Create user
+↓
+Assign permissions (requirement)
+
+Command:chmod (number) filename
+Example: chmod 611 file1 (for user)
+
+For other users: 
+chmod 647 test2
+Change the number according to requirement.
+
+To change the ownership:
+Command: chown user filename
+Example: chown hyderabad test1
+         (Command → user → filename)
+
+To change the group:
+Command:chgrp groupname filename
+Example:chgrp hyderabad test2
+        (Command → groupname → filename)
+
+
+
+
