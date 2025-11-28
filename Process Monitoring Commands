@@ -1,0 +1,27 @@
+**************Process Monitoring Commands******************
+
+1. ps : It will show current shell processes.
+Shell : It is a Method used to login Particular Linux Server.
+There a several Shell Names but most common is binbash 
+----------------------------------------------------------------------------------
+2. ps -ef : Extension of ps which lists all the processes.
+ps -ef is used to check all the processes that are running.
+In this CMD, init is important & the first command/init process is the first process to load the RAM, load the kernel & login page etc.
+----------------------------------------------------------------------------------
+3. top : It is used to check the process memory, CPU consumption, process ID.
+Top Command is used to monitor the live processes that are running 
+PR in Top commands refers to priority, the priority depends on the task that needs to be completed first.
+We can also manually change the Priority of the task as well.
+----------------------------------------------------------------------------------
+4. It is used to check the free memory of RAM & swap memory.
+Swap Memory : It is the extra memory that will be added to the main memory after the main memory has reached to the threshold point which was set ex :80%
+We will get performance and Speed issued in Swap Memory.
+----------------------------------------------------------------------------------
+5. du → Checking space/size of directory or files.
+----------------------------------------------------------------------------------
+6. df → Check the sizes of the mounts.
+----------------------------------------------------------------------------------
+7. grep → Is used to filter any word or search any word 
+----------------------------------------------------------------------------------
+
+                              **********END**********
